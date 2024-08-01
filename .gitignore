@@ -1,0 +1,4 @@
+/backend/venv/
+/backend/myenv
+/node_modules
+.next
