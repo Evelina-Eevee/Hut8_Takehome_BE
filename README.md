@@ -74,9 +74,7 @@ in the root directory ./sampleFrontend
 ```bash
 cd backend
 python3 -m venv venv
+pip install -r requirements.txt
 source venv/bin/activate
-pip3 install fastapi uvicorn pytest
 uvicorn main:app --reload 
 ```
-
-### Frontend application should app and running in http://localhost:3000/
